@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#task-input {
+    padding: 8px;
+    width: 200px;
+}
+
+#add-btn {
+    padding: 8px 12px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
